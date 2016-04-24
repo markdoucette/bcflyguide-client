@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="app" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Rhythm Technology">
+  <meta name="Description" content="Guided fly fishing trips on Vancouver Island in BC on Vancouvr Island for steelhead. Guided fly fishing trips near Campbell River">
+  <meta name="keywords" content="Fly Fishing BC with Single Spey Fly Fishing Adventures, private and public water guide trips, fly fishing lessons, corporate and group trips, destination fly fishing trips, pictures, guides, guided, trip, trips, private, public, stream, streams, river, rivers, lake, lakes, stelhead, rainbow, cuttbow, cutthroat, brown, albino, palamino, brook, trout, fish, trophy, guide service, outfitter, adventure, lodge, angler, anglers, gold medal, trophy trout, trout guides, sport fishing, license, fishing report, stream flows, mountain streams, region, tailwater, cast, casting, dry fly, nymphs, wild trout,  Steelhead flies, salmon flies, tube flies, arctic for flies, marabou flies, Skater flies, Vancouver Island flies, steelhead tube flies, salmon tube flies, Skeena River flies, pacific salmon flies, BC tube flies, canadian tube flies">
+
+
+  <title>BCFlyGuide.com</title>
+
+      <!-- StyleSheets
+    ============================================= -->
+
+    <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="lib/bootstrap-css-only/css/bootstrap.min.css">
+
+    <!-- Library Stylesheets -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700'>
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/ionicons/css/ionicons.css">
+
+    <!-- Custom Template Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/colors/darkOrange.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    </head>
+
+
+  <body data-spy="scroll" data-target="#main-nav-collapse" data-offset="100">
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+    <!-- Wrapper & Preloader
+    ============================================= -->
+    <div id="zwrapper" class="zwrapper">
+
+        <!-- Nav bar -->
+        <section id="topNavBar" class="nav-wrapper">
+            <div class="container-fluid">
+                <div id="menuzord" class="menuzord transparent menuzord-responsive">
+                    <a href="index.html" class="menuzord-brand">
+                        <img style="height: 50px;" src="assets/images/logos/BCFlyGuideLogo143.png" alt="BCFlyGuide">
+                    </a>
+                    <ul class="menuzord-menu menuzord-right">
+                        <li class="active"><a href="#/home">Home</a></li>
+                        <li><a href="#/about">About</a></li>
+                        <li><a href="#winter">Seasons 
+                          <span class="indicator">+</span>
+                        </a>
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="#winter">Winter &amp; Spring</a>
+                                </li>
+                                <li>
+                                    <a href="#summer">Summer &amp; Fall</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#house">Angler's House</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li style="height: 1px" class="scrollable-fix">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+      <div ng-view></div>
+
+        <!-- /.Footer widgets -->
+        <footer id="footer" class="section footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p class="copyright">&copy; 2016 BCFlyGuide.com</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <p class="footer-menu">
+                            <a href="">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /.footer -->
+
+      </div> <!--/#zwrapper-->
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="home/home.js"></script>
+<script src="about/about.js"></script>
+<script src="house/house.js"></script>
+<!-- <script src="assets/js/main.js"></script> -->
+</body>
+</html>

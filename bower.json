@@ -1,0 +1,17 @@
+{
+  "name": "BCFlyGuide",
+  "description": "Web Application for BCFlyGuide.com",
+  "version": "0.0.1",
+  "homepage": "http://bcflyguide.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "bootstrap-css-only": "^3.3.6",
+    "font-awesome": "^4.6.1",
+    "Ionicons": "ionicons#^2.0.1"
+  }
+}
