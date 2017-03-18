@@ -5,7 +5,8 @@ angular.module('app', [
   'ngRoute',
   'app.home',
   'app.about',
-  'app.house'
+  'app.house', 
+  'app.contact'
 ])
 
 .config(['$routeProvider', function($routeProvider) {
